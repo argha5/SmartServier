@@ -3,281 +3,455 @@
     "title": "Servier Medical Art Categories Index",
     "source": "https://smart.servier.com/",
     "totalTopCategories": 5,
-    "totalImages": 892
+    "totalImages": 4862
   },
   "categories": [
     {
       "id": "anatomy-and-the-human-body",
-      "name": "Anatomy & The Human Body",
-      "totalImages": 467,
+      "name": "Anatomy And The Human Body",
+      "totalImages": 2563,
       "subcategories": [
         {
           "id": "auditory-system",
-          "name": "Auditory system",
-          "totalImages": 11,
-          "coverImage": "images/anatomy-and-the-human-body/auditory-system/conducting-zone.png"
+          "name": "Auditory System",
+          "totalImages": 10,
+          "coverImage": "images/anatomy-and-the-human-body/auditory-system/ear-2.png"
         },
         {
           "id": "cardiovascular-system",
-          "name": "Cardiovascular system",
-          "totalImages": 186,
-          "coverImage": "images/anatomy-and-the-human-body/cardiovascular-system/atheroma-1.png"
+          "name": "Cardiovascular System",
+          "totalImages": 530,
+          "coverImage": "images/anatomy-and-the-human-body/cardiovascular-system/abdominal-aorta.png"
+        },
+        {
+          "id": "cardiovascular-system-arteries",
+          "name": "Cardiovascular System Arteries",
+          "totalImages": 178,
+          "coverImage": "images/anatomy-and-the-human-body/cardiovascular-system-arteries/abdominal-aorta.png"
+        },
+        {
+          "id": "cardiovascular-system-blood",
+          "name": "Cardiovascular System Blood",
+          "totalImages": 203,
+          "coverImage": "images/anatomy-and-the-human-body/cardiovascular-system-blood/afferent-arteriole.png"
+        },
+        {
+          "id": "cardiovascular-system-heart",
+          "name": "Cardiovascular System Heart",
+          "totalImages": 142,
+          "coverImage": "images/anatomy-and-the-human-body/cardiovascular-system-heart/abdominal-aortic-aneurysm-2.png"
+        },
+        {
+          "id": "cardiovascular-system-other",
+          "name": "Cardiovascular System Other",
+          "totalImages": 7,
+          "coverImage": "images/anatomy-and-the-human-body/cardiovascular-system-other/bone-growth-2.png"
+        },
+        {
+          "id": "cardiovascular-system-red-blood-cells",
+          "name": "Cardiovascular System Red Blood Cells",
+          "totalImages": 18,
+          "coverImage": "images/anatomy-and-the-human-body/cardiovascular-system-red-blood-cells/erythrocyte-2.png"
+        },
+        {
+          "id": "cardiovascular-system-veins",
+          "name": "Cardiovascular System Veins",
+          "totalImages": 66,
+          "coverImage": "images/anatomy-and-the-human-body/cardiovascular-system-veins/blood-flow-2.png"
+        },
+        {
+          "id": "cardiovascular-system-white-blood-cells",
+          "name": "Cardiovascular System White Blood Cells",
+          "totalImages": 114,
+          "coverImage": "images/anatomy-and-the-human-body/cardiovascular-system-white-blood-cells/eosinophil-granulocyte-2.png"
         },
         {
           "id": "digestive-system",
-          "name": "Digestive system",
-          "totalImages": 37,
-          "coverImage": "images/anatomy-and-the-human-body/digestive-system/complete-digestive-apparatus.png"
+          "name": "Digestive System",
+          "totalImages": 86,
+          "coverImage": "images/anatomy-and-the-human-body/digestive-system/adult-teeth-2.png"
+        },
+        {
+          "id": "digestive-system-intestines-and-colon",
+          "name": "Digestive System Intestines And Colon",
+          "totalImages": 28,
+          "coverImage": "images/anatomy-and-the-human-body/digestive-system-intestines-and-colon/colon-2.png"
+        },
+        {
+          "id": "digestive-system-liver",
+          "name": "Digestive System Liver",
+          "totalImages": 10,
+          "coverImage": "images/anatomy-and-the-human-body/digestive-system-liver/cirrhosis-of-the-liver.png"
+        },
+        {
+          "id": "digestive-system-oesophagus",
+          "name": "Digestive System Oesophagus",
+          "totalImages": 13,
+          "coverImage": "images/anatomy-and-the-human-body/digestive-system-oesophagus/complete-digestive-apparatus-2.png"
+        },
+        {
+          "id": "digestive-system-other",
+          "name": "Digestive System Other",
+          "totalImages": 28,
+          "coverImage": "images/anatomy-and-the-human-body/digestive-system-other/adult-teeth-2.png"
+        },
+        {
+          "id": "digestive-system-pancreas",
+          "name": "Digestive System Pancreas",
+          "totalImages": 12,
+          "coverImage": "images/anatomy-and-the-human-body/digestive-system-pancreas/complete-digestive-apparatus-2.png"
+        },
+        {
+          "id": "digestive-system-stomach",
+          "name": "Digestive System Stomach",
+          "totalImages": 19,
+          "coverImage": "images/anatomy-and-the-human-body/digestive-system-stomach/complete-digestive-apparatus-2.png"
         },
         {
           "id": "glands",
           "name": "Glands",
-          "totalImages": 12,
-          "coverImage": "images/anatomy-and-the-human-body/glands/pituitary-gland.png"
+          "totalImages": 35,
+          "coverImage": "images/anatomy-and-the-human-body/glands/adrenal-gland-2.png"
         },
         {
           "id": "locomotor-system",
-          "name": "Locomotor system",
-          "totalImages": 85,
-          "coverImage": "images/anatomy-and-the-human-body/locomotor-system/kind-of-fractures-1.png"
+          "name": "Locomotor System",
+          "totalImages": 249,
+          "coverImage": "images/anatomy-and-the-human-body/locomotor-system/actin-2.png"
+        },
+        {
+          "id": "locomotor-system-bones",
+          "name": "Locomotor System Bones",
+          "totalImages": 210,
+          "coverImage": "images/anatomy-and-the-human-body/locomotor-system-bones/adult-8211-premenopause-2.png"
+        },
+        {
+          "id": "locomotor-system-muscles",
+          "name": "Locomotor System Muscles",
+          "totalImages": 59,
+          "coverImage": "images/anatomy-and-the-human-body/locomotor-system-muscles/actin-2.png"
+        },
+        {
+          "id": "locomotor-system-other",
+          "name": "Locomotor System Other",
+          "totalImages": 15,
+          "coverImage": "images/anatomy-and-the-human-body/locomotor-system-other/elbow-8211-anterior-view.png"
         },
         {
           "id": "lymphatic-system",
-          "name": "Lymphatic system",
-          "totalImages": 8,
-          "coverImage": "images/anatomy-and-the-human-body/lymphatic-system/lymphatic.png"
+          "name": "Lymphatic System",
+          "totalImages": 16,
+          "coverImage": "images/anatomy-and-the-human-body/lymphatic-system/capillaries.png"
         },
         {
           "id": "nervous-system",
-          "name": "Nervous system",
-          "totalImages": 55,
-          "coverImage": "images/anatomy-and-the-human-body/nervous-system/brain-1.png"
+          "name": "Nervous System",
+          "totalImages": 120,
+          "coverImage": "images/anatomy-and-the-human-body/nervous-system/alzheimer-disease-2.png"
+        },
+        {
+          "id": "nervous-system-brain",
+          "name": "Nervous System Brain",
+          "totalImages": 40,
+          "coverImage": "images/anatomy-and-the-human-body/nervous-system-brain/alzheimer-disease-2.png"
+        },
+        {
+          "id": "nervous-system-neural-cells",
+          "name": "Nervous System Neural Cells",
+          "totalImages": 47,
+          "coverImage": "images/anatomy-and-the-human-body/nervous-system-neural-cells/astrocyte-2.png"
+        },
+        {
+          "id": "nervous-system-other",
+          "name": "Nervous System Other",
+          "totalImages": 10,
+          "coverImage": "images/anatomy-and-the-human-body/nervous-system-other/dermatomes-2.png"
+        },
+        {
+          "id": "nervous-system-synapses",
+          "name": "Nervous System Synapses",
+          "totalImages": 26,
+          "coverImage": "images/anatomy-and-the-human-body/nervous-system-synapses/neuromediator-10.png"
         },
         {
           "id": "reproductive-system",
-          "name": "Reproductive system",
-          "totalImages": 16,
-          "coverImage": "images/anatomy-and-the-human-body/reproductive-system/pregnancy.png"
+          "name": "Reproductive System",
+          "totalImages": 45,
+          "coverImage": "images/anatomy-and-the-human-body/reproductive-system/ectopic-pregnancy.png"
+        },
+        {
+          "id": "reproductive-system-embryo-and-fetus",
+          "name": "Reproductive System Embryo And Fetus",
+          "totalImages": 8,
+          "coverImage": "images/anatomy-and-the-human-body/reproductive-system-embryo-and-fetus/embryo.png"
+        },
+        {
+          "id": "reproductive-system-female-genitalia",
+          "name": "Reproductive System Female Genitalia",
+          "totalImages": 28,
+          "coverImage": "images/anatomy-and-the-human-body/reproductive-system-female-genitalia/ectopic-pregnancy.png"
+        },
+        {
+          "id": "reproductive-system-male-genitalia",
+          "name": "Reproductive System Male Genitalia",
+          "totalImages": 13,
+          "coverImage": "images/anatomy-and-the-human-body/reproductive-system-male-genitalia/male-genital-apparatus.png"
         },
         {
           "id": "respiratory-system",
-          "name": "Respiratory system",
-          "totalImages": 21,
-          "coverImage": "images/anatomy-and-the-human-body/respiratory-system/conducting-zone.png"
+          "name": "Respiratory System",
+          "totalImages": 37,
+          "coverImage": "images/anatomy-and-the-human-body/respiratory-system/chronic-bronchitis.png"
+        },
+        {
+          "id": "respiratory-system-lungs",
+          "name": "Respiratory System Lungs",
+          "totalImages": 28,
+          "coverImage": "images/anatomy-and-the-human-body/respiratory-system-lungs/chronic-bronchitis.png"
+        },
+        {
+          "id": "respiratory-system-other",
+          "name": "Respiratory System Other",
+          "totalImages": 2,
+          "coverImage": "images/anatomy-and-the-human-body/respiratory-system-other/pulmonary-embolism-2.png"
+        },
+        {
+          "id": "respiratory-system-sinuses",
+          "name": "Respiratory System Sinuses",
+          "totalImages": 2,
+          "coverImage": "images/anatomy-and-the-human-body/respiratory-system-sinuses/nasal-cavity.png"
+        },
+        {
+          "id": "respiratory-system-upper-respiratory",
+          "name": "Respiratory System Upper Respiratory",
+          "totalImages": 5,
+          "coverImage": "images/anatomy-and-the-human-body/respiratory-system-upper-respiratory/conducting-zone.png"
         },
         {
           "id": "urinary-system",
-          "name": "Urinary system",
-          "totalImages": 19,
-          "coverImage": "images/anatomy-and-the-human-body/urinary-system/urinary-tract.png"
+          "name": "Urinary System",
+          "totalImages": 12,
+          "coverImage": "images/anatomy-and-the-human-body/urinary-system/afferent-arteriole.png"
         },
         {
           "id": "visual-system",
-          "name": "Visual system",
-          "totalImages": 17,
-          "coverImage": "images/anatomy-and-the-human-body/visual-system/eye.png"
+          "name": "Visual System",
+          "totalImages": 46,
+          "coverImage": "images/anatomy-and-the-human-body/visual-system/angle-closure-glaucoma.png"
+        },
+        {
+          "id": "visual-system-eye",
+          "name": "Visual System Eye",
+          "totalImages": 18,
+          "coverImage": "images/anatomy-and-the-human-body/visual-system-eye/angle-closure-glaucoma.png"
+        },
+        {
+          "id": "visual-system-other",
+          "name": "Visual System Other",
+          "totalImages": 2,
+          "coverImage": "images/anatomy-and-the-human-body/visual-system-other/optical-pathways.png"
+        },
+        {
+          "id": "visual-system-retina",
+          "name": "Visual System Retina",
+          "totalImages": 21,
+          "coverImage": "images/anatomy-and-the-human-body/visual-system-retina/retina-10.png"
+        },
+        {
+          "id": "visual-system-vision",
+          "name": "Visual System Vision",
+          "totalImages": 5,
+          "coverImage": "images/anatomy-and-the-human-body/visual-system-vision/astigmatic-vision.png"
         }
       ]
     },
     {
       "id": "cellular-biology",
       "name": "Cellular Biology",
-      "totalImages": 84,
+      "totalImages": 778,
       "subcategories": [
         {
           "id": "cell-membrane",
-          "name": "Cell membrane",
-          "totalImages": 16,
-          "coverImage": "images/cellular-biology/cell-membrane/empty-cells-1.png"
-        },
-        {
-          "id": "intracellular-components",
-          "name": "Intracellular components",
-          "totalImages": 14,
-          "coverImage": "images/cellular-biology/intracellular-components/golgi-apparatus.png"
+          "name": "Cell Membrane",
+          "totalImages": 66,
+          "coverImage": "images/cellular-biology/cell-membrane/cell-membrane-10.png"
         },
         {
           "id": "genetics",
           "name": "Genetics",
-          "totalImages": 5,
-          "coverImage": "images/cellular-biology/genetics/karyotype.png"
+          "totalImages": 22,
+          "coverImage": "images/cellular-biology/genetics/allele-10.png"
+        },
+        {
+          "id": "intracellular-components",
+          "name": "Intracellular Components",
+          "totalImages": 133,
+          "coverImage": "images/cellular-biology/intracellular-components/actine-filament-2.png"
         },
         {
           "id": "lipids",
           "name": "Lipids",
-          "totalImages": 8,
-          "coverImage": "images/cellular-biology/lipids/lipoprotein.png"
+          "totalImages": 46,
+          "coverImage": "images/cellular-biology/lipids/adipocyte-2.png"
         },
         {
           "id": "nucleic-acids",
-          "name": "Nucleic acids",
-          "totalImages": 9,
-          "coverImage": "images/cellular-biology/nucleic-acids/karyotype.png"
+          "name": "Nucleic Acids",
+          "totalImages": 40,
+          "coverImage": "images/cellular-biology/nucleic-acids/dna-10.png"
         },
         {
           "id": "receptors-and-channels",
-          "name": "Receptors & Channels",
-          "totalImages": 17,
-          "coverImage": "images/cellular-biology/receptors-and-channels/receptors-1.png"
+          "name": "Receptors And Channels",
+          "totalImages": 337,
+          "coverImage": "images/cellular-biology/receptors-and-channels/calcium-sensing-receptor-2.png"
+        },
+        {
+          "id": "receptors-and-channels-channels",
+          "name": "Receptors And Channels Channels",
+          "totalImages": 76,
+          "coverImage": "images/cellular-biology/receptors-and-channels-channels/channel-10.png"
         },
         {
           "id": "tissues",
           "name": "Tissues",
-          "totalImages": 15,
-          "coverImage": "images/cellular-biology/tissues/simple-cuboidal-epithelium.png"
-        }
-      ]
-    },
-    {
-      "id": "infectiology",
-      "name": "Infectiology",
-      "totalImages": 59,
-      "subcategories": [
-        {
-          "id": "micology-and-virology",
-          "name": "Micology & Virology",
-          "totalImages": 37,
-          "coverImage": "images/infectiology/micology-and-virology/virology.png"
-        },
-        {
-          "id": "parasitology",
-          "name": "Parasitology",
-          "totalImages": 22,
-          "coverImage": "images/infectiology/parasitology/entamoeba.png"
+          "totalImages": 58,
+          "coverImage": "images/cellular-biology/tissues/arterial-wall.png"
         }
       ]
     },
     {
       "id": "general-items",
       "name": "General Items",
-      "totalImages": 263,
+      "totalImages": 245,
       "subcategories": [
         {
           "id": "animals",
           "name": "Animals",
-          "totalImages": 17,
-          "coverImage": "images/general-items/animals/mouse.png"
+          "totalImages": 48,
+          "coverImage": "images/general-items/animals/baboon.png"
         },
         {
-          "id": "equipment-and-drugs",
-          "name": "Equipment & Drugs",
-          "totalImages": 77,
-          "coverImage": "images/general-items/equipment-and-drugs/ambulance.png"
+          "id": "clothes",
+          "name": "Clothes",
+          "totalImages": 82,
+          "coverImage": "images/general-items/clothes/dress-10.png"
         },
         {
-          "id": "food-and-dietetics",
-          "name": "Food & Dietetics",
-          "totalImages": 33,
-          "coverImage": "images/general-items/food-and-dietetics/fruits-1.png"
+          "id": "drugs-and-treatments",
+          "name": "Drugs And Treatments",
+          "totalImages": 56,
+          "coverImage": "images/general-items/drugs-and-treatments/angioplasty-2.png"
         },
         {
-          "id": "people-and-shapes",
-          "name": "People & Shapes",
-          "totalImages": 44,
-          "coverImage": "images/general-items/people-and-shapes/newborn-baby.png"
+          "id": "equipment",
+          "name": "Equipment",
+          "totalImages": 59,
+          "coverImage": "images/general-items/equipment/8-well-pcr-tube-strip.png"
+        }
+      ]
+    },
+    {
+      "id": "infectiology",
+      "name": "Infectiology",
+      "totalImages": 100,
+      "subcategories": [
+        {
+          "id": "micology",
+          "name": "Micology",
+          "totalImages": 11,
+          "coverImage": "images/infectiology/micology/aspergillus-fumigatus.png"
         },
         {
-          "id": "scientific-graphs-and-maps",
-          "name": "Scientific Graphs & Maps",
-          "totalImages": 17,
-          "coverImage": "images/general-items/scientific-graphs-and-maps/oral-administration.png"
+          "id": "parasitology",
+          "name": "Parasitology",
+          "totalImages": 66,
+          "coverImage": "images/infectiology/parasitology/ancylostoma-duodenale-8211-adult.png"
         },
         {
-          "id": "other-general-items",
-          "name": "Other General Items",
-          "totalImages": 75,
-          "coverImage": "images/general-items/other-general-items/bubbles.png"
+          "id": "virology",
+          "name": "Virology",
+          "totalImages": 23,
+          "coverImage": "images/infectiology/virology/adenovirus-2.png"
         }
       ]
     },
     {
       "id": "medical-specialties",
       "name": "Medical Specialties",
-      "totalImages": 19,
+      "totalImages": 1176,
       "subcategories": [
         {
           "id": "cardiology-and-phlebology",
-          "name": "Cardiology & Phlebology",
-          "totalImages": 0,
-          "coverImage": ""
+          "name": "Cardiology And Phlebology",
+          "totalImages": 399,
+          "coverImage": "images/medical-specialties/cardiology-and-phlebology/abdominal-aorta.png"
         },
         {
           "id": "dermatology",
           "name": "Dermatology",
-          "totalImages": 9,
-          "coverImage": "images/medical-specialties/dermatology/skin.png"
+          "totalImages": 34,
+          "coverImage": "images/medical-specialties/dermatology/burns-8211-first-degree-burn.png"
         },
         {
           "id": "embryology",
           "name": "Embryology",
-          "totalImages": 0,
-          "coverImage": ""
+          "totalImages": 62,
+          "coverImage": "images/medical-specialties/embryology/cellular-culture-8211-cell.png"
         },
         {
           "id": "endocrinology",
           "name": "Endocrinology",
-          "totalImages": 0,
-          "coverImage": ""
-        },
-        {
-          "id": "otolaryngology",
-          "name": "Otolaryngology",
-          "totalImages": 0,
-          "coverImage": ""
+          "totalImages": 36,
+          "coverImage": "images/medical-specialties/endocrinology/adrenal-gland-2.png"
         },
         {
           "id": "gastroenterology",
           "name": "Gastroenterology",
-          "totalImages": 0,
-          "coverImage": ""
-        },
-        {
-          "id": "immunology-and-haematology",
-          "name": "Immunology & Haematology",
-          "totalImages": 0,
-          "coverImage": ""
+          "totalImages": 73,
+          "coverImage": "images/medical-specialties/gastroenterology/bile-secretion.png"
         },
         {
           "id": "infectiology",
           "name": "Infectiology",
-          "totalImages": 0,
-          "coverImage": ""
+          "totalImages": 107,
+          "coverImage": "images/medical-specialties/infectiology/adenovirus-2.png"
         },
         {
           "id": "neurology",
           "name": "Neurology",
-          "totalImages": 0,
-          "coverImage": ""
-        },
-        {
-          "id": "oncology",
-          "name": "Oncology",
-          "totalImages": 10,
-          "coverImage": "images/medical-specialties/oncology/cells.png"
+          "totalImages": 119,
+          "coverImage": "images/medical-specialties/neurology/alzheimer-disease-2.png"
         },
         {
           "id": "ophthalmology",
           "name": "Ophthalmology",
-          "totalImages": 0,
-          "coverImage": ""
+          "totalImages": 47,
+          "coverImage": "images/medical-specialties/ophthalmology/angle-closure-glaucoma.png"
+        },
+        {
+          "id": "otolaryngology",
+          "name": "Otolaryngology",
+          "totalImages": 21,
+          "coverImage": "images/medical-specialties/otolaryngology/conducting-zone.png"
         },
         {
           "id": "pulmonology",
           "name": "Pulmonology",
-          "totalImages": 0,
-          "coverImage": ""
+          "totalImages": 30,
+          "coverImage": "images/medical-specialties/pulmonology/chronic-bronchitis.png"
         },
         {
           "id": "rheumatology",
           "name": "Rheumatology",
-          "totalImages": 0,
-          "coverImage": ""
+          "totalImages": 238,
+          "coverImage": "images/medical-specialties/rheumatology/actin.png"
         },
         {
           "id": "urology",
           "name": "Urology",
-          "totalImages": 0,
-          "coverImage": ""
+          "totalImages": 10,
+          "coverImage": "images/medical-specialties/urology/bladder.png"
         }
       ]
     }
