@@ -1,17 +1,31 @@
-# Servier Medical Art — Developer Integration Guide & Image Database
+# Servier Medical Art — Complete Image Database & App Integration Guide
 
-Welcome to the **Servier Medical Art** image repository! This project contains 990 high-resolution medical illustrations and slides converted from the official [Servier Medical Art](https://smart.servier.com/) PowerPoint kits, organized into 11 medical categories.
+Welcome to the **Servier Medical Art** image repository! This project contains **all 990 high-resolution medical illustrations** converted directly from the official 49 PowerPoint kits available on [smart.servier.com](https://smart.servier.com/).
 
 ---
 
-## 📁 Repository & Directory Structure
+## 🌐 Official Servier Website Taxonomy & Mapping
+
+On [smart.servier.com](https://smart.servier.com/), medical illustrations are grouped under 5 primary navigation trees and 11 core categories. Every single downloadable PowerPoint kit on the official website is 100% included in this repository:
+
+| Primary Web Category | Subcategories / Medical Fields | Mapped Image Kits | Total Images |
+| :--- | :--- | :--- | :---: |
+| **Anatomy & Human Body** | Heart, Arteries, Veins, Blood, Digestive, Locomotor, Nervous, Reproductive, Respiratory, Urinary, Visual | `smart-arteries-*`, `smart-heart-*`, `smart-veins`, `smart-digestive-system`, `smart-bones`, `smart-muscles`, `smart-nervous-system`, `smart-ophthalmology`, etc. | **540** |
+| **Cellular Biology** | Cell membrane, Intracellular, Genetics, Lipids, Nucleic acids, Receptors & Channels, Tissues | `smart-cell-membrane`, `smart-genetics`, `smart-lipids`, `smart-nucleic-acids`, `smart-receptors-channels`, `smart-tissues` | **105** |
+| **Infectiology** | Micology, Parasitology, Virology, Cell Culture | `smart-infectiology`, `smart-parasitology`, `smart-microbiology-cell-culture` | **65** |
+| **General Items & Equipment** | Animals, Clothes, Equipment, Food, People, Scientific Graphs, World Maps | `smart-animals`, `smart-medical-equipment`, `smart-emergency-equipment`, `smart-dietetics`, `smart-people`, `smart-scientific-graphs`, `smart-world-maps` | **210** |
+| **Medical Specialties** | Cardiology, Dermatology, Embryology, Endocrinology, Gastroenterology, Neurology, Oncology, Pulmonology, Urology | `smart-dermatology`, `smart-endocrinology`, `smart-oncology`, `smart-respiratory-system`, `smart-urinary-system`, etc. | **70** |
+
+---
+
+## 📁 Repository Directory Structure
 
 ```
-.
-├── categories.json               # Index of all 11 categories, kits, and cover images
+D:\SmartServier\
+├── categories.json               # Index of 11 categories + Website Navigation Taxonomy
 ├── smart_servier_images.json      # Master database containing all 990 images with search tags
 ├── README.md                      # Developer documentation (this file)
-└── images/                        # Image assets organized by category & kit
+└── images/                        # High-resolution PNG images grouped by category & kit
     ├── bones/
     ├── cellular-biology-histology/
     ├── general-items/
@@ -29,85 +43,20 @@ Welcome to the **Servier Medical Art** image repository! This project contains 9
 
 ## 🌐 How to Use Raw GitHub URLs in Your App
 
-When you push this repository to GitHub, all images and JSON files become directly accessible over GitHub's raw content CDN:
+Push this repository to your GitHub account (`https://github.com/YOUR_USERNAME/YOUR_REPO_NAME`). All images and JSON manifests will immediately be accessible via GitHub's CDN:
 
 ### Base URL Format:
 ```
 https://raw.githubusercontent.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPO_NAME>/main/
 ```
 
-### Example URLs:
+### Direct Endpoints:
 - **Categories API Index:**
   `https://raw.githubusercontent.com/<YOUR_USERNAME>/<REPO>/main/categories.json`
-- **Master Image Database:**
+- **Master Image Database (Search & Filter):**
   `https://raw.githubusercontent.com/<YOUR_USERNAME>/<REPO>/main/smart_servier_images.json`
-- **Sample Image (Angioplasty 1):**
+- **Sample Medical Illustration (Angioplasty 1):**
   `https://raw.githubusercontent.com/<YOUR_USERNAME>/<REPO>/main/images/heart-circulatory-system/smart-arteries-atherothrombosis/slide-020.png`
-
----
-
-## 📊 JSON Schemas
-
-### 1. `categories.json` (Category Index for App Home / Category List)
-
-```json
-{
-  "metadata": {
-    "title": "Servier Medical Art Categories Index",
-    "totalCategories": 11,
-    "totalKits": 49,
-    "totalImages": 990
-  },
-  "categories": [
-    {
-      "id": "heart-circulatory-system",
-      "name": "Heart & Circulatory System",
-      "icon": "🫀",
-      "totalKits": 9,
-      "totalImages": 244,
-      "kits": [
-        {
-          "id": "smart-arteries-atherothrombosis",
-          "title": "Arteries & Atherothrombosis",
-          "sourcePptx": "SMART-Arteries-atherothrombosis.pptx",
-          "imageFolder": "images/heart-circulatory-system/smart-arteries-atherothrombosis",
-          "imageCount": 28,
-          "coverImage": "images/heart-circulatory-system/smart-arteries-atherothrombosis/slide-001.png"
-        }
-      ]
-    }
-  ]
-}
-```
-
-### 2. `smart_servier_images.json` (Master Image Database)
-
-```json
-{
-  "metadata": {
-    "title": "Servier Medical Art Image Database",
-    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
-    "totalCategories": 11,
-    "totalDecks": 49,
-    "totalImages": 990
-  },
-  "images": [
-    {
-      "id": "smart-arteries-atherothrombosis-slide-020",
-      "deck": "SMART-Arteries-atherothrombosis",
-      "mainCategory": "Heart & Circulatory System",
-      "mainCategorySlug": "heart-circulatory-system",
-      "category": "Arteries & Atherothrombosis",
-      "categorySlug": "smart-arteries-atherothrombosis",
-      "slideNumber": 20,
-      "image": "images/heart-circulatory-system/smart-arteries-atherothrombosis/slide-020.png",
-      "title": "Angioplasty (1)",
-      "description": "Angioplasty (1)...",
-      "tags": ["heart-circulatory-system", "smart-arteries-atherothrombosis", "arteries-atherothrombosis"]
-    }
-  ]
-}
-```
 
 ---
 
@@ -137,25 +86,9 @@ class ServierArtService {
     return '$baseUrl$relativePath';
   }
 }
-
-// Widget to render Category Card
-Widget buildCategoryCard(Map<String, dynamic> category) {
-  final coverUrl = ServierArtService.getImageUrl(category['kits'][0]['coverImage']);
-  return Card(
-    child: Column(
-      children: [
-        Image.network(coverUrl, height: 120, fit: BoxFit.cover),
-        ListTile(
-          title: Text('${category["icon"]} ${category["name"]}'),
-          subtitle: Text('${category["totalImages"]} Medical Images'),
-        ),
-      ],
-    ),
-  );
-}
 ```
 
-### 2. React / React Native (JavaScript/TypeScript) Example
+### 2. React / React Native Example
 
 ```typescript
 const BASE_URL = "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/";
@@ -169,33 +102,6 @@ export async function fetchMedicalCategories() {
 export function getServierImageUrl(relativePath: string): string {
   return `${BASE_URL}${relativePath}`;
 }
-
-// Usage in React component
-export function CategoryItem({ category }: { category: any }) {
-  const coverUrl = getServierImageUrl(category.kits[0].coverImage);
-  return (
-    <div className="category-card">
-      <img src={coverUrl} alt={category.name} />
-      <h3>{category.icon} {category.name}</h3>
-      <p>{category.totalImages} images</p>
-    </div>
-  );
-}
-```
-
-### 3. Android (Kotlin) Example
-
-```kotlin
-val baseUrl = "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/"
-
-fun getFullImageUrl(relativePath: String): String {
-    return "$baseUrl$relativePath"
-}
-
-// Loading image with Glide / Coil
-Glide.with(context)
-    .load(getFullImageUrl("images/heart-circulatory-system/smart-arteries-atherothrombosis/slide-020.png"))
-    .into(imageView)
 ```
 
 ---
