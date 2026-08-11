@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "title": "Servier Medical Art Categories Index",
+    "source": "https://smart.servier.com/",
+    "totalCategories": 11,
+    "totalKits": 49,
+    "totalImages": 990
+  },
+  "categories": [
+    {
+      "id": "bones",
+      "name": "Bones",
+      "icon": "🦴",
+      "totalKits": 3,
+      "totalImages": 81,
+      "kits": [
+        {
+          "id": "smart-bone-fractures",
+          "title": "Bone fractures",
+          "sourcePptx": "SMART-Bone-fractures.pptx",
+          "imageFolder": "images/bones/smart-bone-fractures",
+          "imageCount": 20,
+          "coverImage": "images/bones/smart-bone-fractures/slide-001.png"
+        },
+        {
+          "id": "smart-bone-structure",
+          "title": "Bone structure",
+          "sourcePptx": "SMART-Bone-structure.pptx",
+          "imageFolder": "images/bones/smart-bone-structure",
+          "imageCount": 23,
+          "coverImage": "images/bones/smart-bone-structure/slide-001.png"
+        },
+        {
+          "id": "smart-bones",
+          "title": "Bones",
+          "sourcePptx": "SMART-Bones.pptx",
+          "imageFolder": "images/bones/smart-bones",
+          "imageCount": 38,
+          "coverImage": "images/bones/smart-bones/slide-001.png"
+        }
+      ]
+    },
+    {
+      "id": "cellular-biology-histology",
+      "name": "Cellular Biology & Histology",
+      "icon": "🔬",
+      "totalKits": 7,
+      "totalImages": 100,
+      "kits": [
+        {
+          "id": "smart-cell-membrane",
+          "title": "Cell membrane",
+          "sourcePptx": "SMART-Cell-membrane.pptx",
+          "imageFolder": "images/cellular-biology-histology/smart-cell-membrane",
+          "imageCount": 18,
+          "coverImage": "images/cellular-biology-histology/smart-cell-membrane/slide-001.png"
+        },
+        {
+          "id": "smart-genetics",
+          "title": "Genetics",
+          "sourcePptx": "SMART-Genetics.pptx",
+          "imageFolder": "images/cellular-biology-histology/smart-genetics",
+          "imageCount": 7,
+          "coverImage": "images/cellular-biology-histology/smart-genetics/slide-001.png"
+        },
+        {
+          "id": "smart-intracellular-components",
+          "title": "Intracellular components",
+          "sourcePptx": "SMART-Intracellular-components.pptx",
+          "imageFolder": "images/cellular-biology-histology/smart-intracellular-components",
+          "imageCount": 16,
+          "coverImage": "images/cellular-biology-histology/smart-intracellular-components/slide-001.png"
+        },
+        {
+          "id": "smart-nucleic-acids",
+          "title": "Nucleic acids",
+          "sourcePptx": "SMART-Nucleic-acids.pptx",
+          "imageFolder": "images/cellular-biology-histology/smart-nucleic-acids",
+          "imageCount": 11,
+          "coverImage": "images/cellular-biology-histology/smart-nucleic-acids/slide-001.png"
+        },
+        {
+          "id": "smart-oncology",
+          "title": "Oncology",
+          "sourcePptx": "SMART-Oncology.pptx",
+          "imageFolder": "images/cellular-biology-histology/smart-oncology",
+          "imageCount": 12,
+          "coverImage": "images/cellular-biology-histology/smart-oncology/slide-001.png"
+        },
+        {
+          "id": "smart-receptors-channels",
+          "title": "Receptors channels",
+          "sourcePptx": "SMART-Receptors-channels.pptx",
+          "imageFolder": "images/cellular-biology-histology/smart-receptors-channels",
+          "imageCount": 19,
+          "coverImage": "images/cellular-biology-histology/smart-receptors-channels/slide-001.png"
+        },
+        {
+          "id": "smart-tissues",
+          "title": "Tissues",
+          "sourcePptx": "SMART-Tissues.pptx",
+          "imageFolder": "images/cellular-biology-histology/smart-tissues",
+          "imageCount": 17,
+          "coverImage": "images/cellular-biology-histology/smart-tissues/slide-001.png"
+        }
+      ]
+    },
+    {
+      "id": "general-items",
+      "name": "General Items",
+      "icon": "🌐",
+      "totalKits": 6,
+      "totalImages": 103,
+      "kits": [
+        {
+          "id": "smart-animals",
+          "title": "Animals",
+          "sourcePptx": "SMART-Animals.pptx",
+          "imageFolder": "images/general-items/smart-animals",
+          "imageCount": 19,
+          "coverImage": "images/general-items/smart-animals/slide-001.png"
+        },
+        {
+          "id": "smart-emergency-equipment",
+          "title": "Emergency equipment",
+          "sourcePptx": "SMART-Emergency-equipment.pptx",
+          "imageFolder": "images/general-items/smart-emergency-equipment",
+          "imageCount": 6,
+          "coverImage": "images/general-items/smart-emergency-equipment/slide-001.png"
+        },
+        {
+          "id": "smart-general-items",
+          "title": "General items",
+          "sourcePptx": "SMART-General-items.pptx",
+          "imageFolder": "images/general-items/smart-general-items",
+          "imageCount": 11,
+          "coverImage": "images/general-items/smart-general-items/slide-001.png"
+        },
+        {
+          "id": "smart-people",
+          "title": "People",
+          "sourcePptx": "SMART-People.pptx",
+          "imageFolder": "images/general-items/smart-people",
+          "imageCount": 46,
+          "coverImage": "images/general-items/smart-people/slide-001.png"
+        },
+        {
+          "id": "smart-scientific-graphs",
+          "title": "Scientific graphs",
+          "sourcePptx": "SMART-Scientific-graphs.pptx",
+          "imageFolder": "images/general-items/smart-scientific-graphs",
+          "imageCount": 8,
+          "coverImage": "images/general-items/smart-scientific-graphs/slide-001.png"
+        },
+        {
+          "id": "smart-world-maps",
+          "title": "World maps",
+          "sourcePptx": "SMART-World-maps.pptx",
+          "imageFolder": "images/general-items/smart-world-maps",
+          "imageCount": 13,
+          "coverImage": "images/general-items/smart-world-maps/slide-001.png"
+        }
+      ]
+    },
+    {
+      "id": "heart-circulatory-system",
+      "name": "Heart & Circulatory System",
+      "icon": "🫀",
+      "totalKits": 9,
+      "totalImages": 231,
+      "kits": [
+        {
+          "id": "smart-arteries-atherothrombosis",
+          "title": "Arteries atherothrombosis",
+          "sourcePptx": "SMART-Arteries-atherothrombosis.pptx",
+          "imageFolder": "images/heart-circulatory-system/smart-arteries-atherothrombosis",
+          "imageCount": 28,
+          "coverImage": "images/heart-circulatory-system/smart-arteries-atherothrombosis/slide-001.png"
+        },
+        {
+          "id": "smart-arteries-pathophysiology",
+          "title": "Arteries pathophysiology",
+          "sourcePptx": "SMART-Arteries-pathophysiology.pptx",
+          "imageFolder": "images/heart-circulatory-system/smart-arteries-pathophysiology",
+          "imageCount": 19,
+          "coverImage": "images/heart-circulatory-system/smart-arteries-pathophysiology/slide-001.png"
+        },
+        {
+          "id": "smart-arteries-physiology",
+          "title": "Arteries physiology",
+          "sourcePptx": "SMART-Arteries-physiology.pptx",
+          "imageFolder": "images/heart-circulatory-system/smart-arteries-physiology",
+          "imageCount": 31,
+          "coverImage": "images/heart-circulatory-system/smart-arteries-physiology/slide-001.png"
+        },
+        {
+          "id": "smart-blood-immunology",
+          "title": "Blood immunology",
+          "sourcePptx": "SMART-Blood-immunology.pptx",
+          "imageFolder": "images/heart-circulatory-system/smart-blood-immunology",
+          "imageCount": 30,
+          "coverImage": "images/heart-circulatory-system/smart-blood-immunology/slide-001.png"
+        },
+        {
+          "id": "smart-heart-pathophysiology",
+          "title": "Heart pathophysiology",
+          "sourcePptx": "SMART-Heart-pathophysiology.pptx",
+          "imageFolder": "images/heart-circulatory-system/smart-heart-pathophysiology",
+          "imageCount": 37,
+          "coverImage": "images/heart-circulatory-system/smart-heart-pathophysiology/slide-001.png"
+        },
+        {
+          "id": "smart-heart-physiology",
+          "title": "Heart physiology",
+          "sourcePptx": "SMART-Heart-physiology.pptx",
+          "imageFolder": "images/heart-circulatory-system/smart-heart-physiology",
+          "imageCount": 21,
+          "coverImage": "images/heart-circulatory-system/smart-heart-physiology/slide-001.png"
+        },
+        {
+          "id": "smart-lymphatic-system",
+          "title": "Lymphatic system",
+          "sourcePptx": "SMART-Lymphatic-system.pptx",
+          "imageFolder": "images/heart-circulatory-system/smart-lymphatic-system",
+          "imageCount": 10,
+          "coverImage": "images/heart-circulatory-system/smart-lymphatic-system/slide-001.png"
+        },
+        {
+          "id": "smart-urinary-system",
+          "title": "Urinary system",
+          "sourcePptx": "SMART-Urinary-system.pptx",
+          "imageFolder": "images/heart-circulatory-system/smart-urinary-system",
+          "imageCount": 21,
+          "coverImage": "images/heart-circulatory-system/smart-urinary-system/slide-001.png"
+        },
+        {
+          "id": "smart-veins",
+          "title": "Veins",
+          "sourcePptx": "SMART-Veins.pptx",
+          "imageFolder": "images/heart-circulatory-system/smart-veins",
+          "imageCount": 34,
+          "coverImage": "images/heart-circulatory-system/smart-veins/slide-001.png"
+        }
+      ]
+    },
+    {
+      "id": "infectiology",
+      "name": "Infectiology",
+      "icon": "🦠",
+      "totalKits": 2,
+      "totalImages": 43,
+      "kits": [
+        {
+          "id": "smart-infectiology",
+          "title": "Infectiology",
+          "sourcePptx": "SMART-Infectiology.pptx",
+          "imageFolder": "images/infectiology/smart-infectiology",
+          "imageCount": 19,
+          "coverImage": "images/infectiology/smart-infectiology/slide-001.png"
+        },
+        {
+          "id": "smart-parasitology",
+          "title": "Parasitology",
+          "sourcePptx": "SMART-Parasitology.pptx",
+          "imageFolder": "images/infectiology/smart-parasitology",
+          "imageCount": 24,
+          "coverImage": "images/infectiology/smart-parasitology/slide-001.png"
+        }
+      ]
+    },
+    {
+      "id": "laboratory-equipment",
+      "name": "Laboratory Equipment",
+      "icon": "🧪",
+      "totalKits": 3,
+      "totalImages": 56,
+      "kits": [
+        {
+          "id": "smart-chemistry",
+          "title": "Chemistry",
+          "sourcePptx": "SMART-Chemistry.pptx",
+          "imageFolder": "images/laboratory-equipment/smart-chemistry",
+          "imageCount": 20,
+          "coverImage": "images/laboratory-equipment/smart-chemistry/slide-001.png"
+        },
+        {
+          "id": "smart-lab-apparatus",
+          "title": "Lab apparatus",
+          "sourcePptx": "SMART-Lab-apparatus.pptx",
+          "imageFolder": "images/laboratory-equipment/smart-lab-apparatus",
+          "imageCount": 14,
+          "coverImage": "images/laboratory-equipment/smart-lab-apparatus/slide-001.png"
+        },
+        {
+          "id": "smart-microbiology-cell-culture",
+          "title": "Microbiology cell culture",
+          "sourcePptx": "SMART-Microbiology-cell-culture.pptx",
+          "imageFolder": "images/laboratory-equipment/smart-microbiology-cell-culture",
+          "imageCount": 22,
+          "coverImage": "images/laboratory-equipment/smart-microbiology-cell-culture/slide-001.png"
+        }
+      ]
+    },
+    {
+      "id": "medical-practice",
+      "name": "Medical Practice",
+      "icon": "🩺",
+      "totalKits": 4,
+      "totalImages": 83,
+      "kits": [
+        {
+          "id": "smart-drugs",
+          "title": "Drugs",
+          "sourcePptx": "SMART-Drugs.pptx",
+          "imageFolder": "images/medical-practice/smart-drugs",
+          "imageCount": 19,
+          "coverImage": "images/medical-practice/smart-drugs/slide-001.png"
+        },
+        {
+          "id": "smart-medical-acts",
+          "title": "Medical acts",
+          "sourcePptx": "SMART-Medical-acts.pptx",
+          "imageFolder": "images/medical-practice/smart-medical-acts",
+          "imageCount": 11,
+          "coverImage": "images/medical-practice/smart-medical-acts/slide-001.png"
+        },
+        {
+          "id": "smart-medical-equipment",
+          "title": "Medical equipment",
+          "sourcePptx": "SMART-Medical-equipment.pptx",
+          "imageFolder": "images/medical-practice/smart-medical-equipment",
+          "imageCount": 28,
+          "coverImage": "images/medical-practice/smart-medical-equipment/slide-001.png"
+        },
+        {
+          "id": "smart-paraclinical-exams",
+          "title": "Paraclinical exams",
+          "sourcePptx": "SMART-Paraclinical-exams.pptx",
+          "imageFolder": "images/medical-practice/smart-paraclinical-exams",
+          "imageCount": 25,
+          "coverImage": "images/medical-practice/smart-paraclinical-exams/slide-001.png"
+        }
+      ]
+    },
+    {
+      "id": "neurology",
+      "name": "Neurology",
+      "icon": "🧠",
+      "totalKits": 2,
+      "totalImages": 59,
+      "kits": [
+        {
+          "id": "smart-nervous-system",
+          "title": "Nervous system",
+          "sourcePptx": "SMART-Nervous-system.pptx",
+          "imageFolder": "images/neurology/smart-nervous-system",
+          "imageCount": 39,
+          "coverImage": "images/neurology/smart-nervous-system/slide-001.png"
+        },
+        {
+          "id": "smart-neural-cells",
+          "title": "Neural cells",
+          "sourcePptx": "SMART-Neural-cells.pptx",
+          "imageFolder": "images/neurology/smart-neural-cells",
+          "imageCount": 20,
+          "coverImage": "images/neurology/smart-neural-cells/slide-001.png"
+        }
+      ]
+    },
+    {
+      "id": "other-medical-fields",
+      "name": "Other Medical Fields",
+      "icon": "🏥",
+      "totalKits": 6,
+      "totalImages": 117,
+      "kits": [
+        {
+          "id": "smart-dermatology",
+          "title": "Dermatology",
+          "sourcePptx": "SMART-Dermatology.pptx",
+          "imageFolder": "images/other-medical-fields/smart-dermatology",
+          "imageCount": 11,
+          "coverImage": "images/other-medical-fields/smart-dermatology/slide-001.png"
+        },
+        {
+          "id": "smart-digestive-system",
+          "title": "Digestive system",
+          "sourcePptx": "SMART-Digestive-system.pptx",
+          "imageFolder": "images/other-medical-fields/smart-digestive-system",
+          "imageCount": 39,
+          "coverImage": "images/other-medical-fields/smart-digestive-system/slide-001.png"
+        },
+        {
+          "id": "smart-ent",
+          "title": "ENT",
+          "sourcePptx": "SMART-ENT.pptx",
+          "imageFolder": "images/other-medical-fields/smart-ent",
+          "imageCount": 13,
+          "coverImage": "images/other-medical-fields/smart-ent/slide-001.png"
+        },
+        {
+          "id": "smart-muscles",
+          "title": "Muscles",
+          "sourcePptx": "SMART-Muscles.pptx",
+          "imageFolder": "images/other-medical-fields/smart-muscles",
+          "imageCount": 12,
+          "coverImage": "images/other-medical-fields/smart-muscles/slide-001.png"
+        },
+        {
+          "id": "smart-ophthalmology",
+          "title": "Ophthalmology",
+          "sourcePptx": "SMART-Ophthalmology.pptx",
+          "imageFolder": "images/other-medical-fields/smart-ophthalmology",
+          "imageCount": 19,
+          "coverImage": "images/other-medical-fields/smart-ophthalmology/slide-001.png"
+        },
+        {
+          "id": "smart-respiratory-system",
+          "title": "Respiratory system",
+          "sourcePptx": "SMART-Respiratory-system.pptx",
+          "imageFolder": "images/other-medical-fields/smart-respiratory-system",
+          "imageCount": 23,
+          "coverImage": "images/other-medical-fields/smart-respiratory-system/slide-001.png"
+        }
+      ]
+    },
+    {
+      "id": "physiology",
+      "name": "Physiology",
+      "icon": "🧬",
+      "totalKits": 4,
+      "totalImages": 47,
+      "kits": [
+        {
+          "id": "smart-diabetes",
+          "title": "Diabetes",
+          "sourcePptx": "SMART-Diabetes.pptx",
+          "imageFolder": "images/physiology/smart-diabetes",
+          "imageCount": 13,
+          "coverImage": "images/physiology/smart-diabetes/slide-001.png"
+        },
+        {
+          "id": "smart-embryology",
+          "title": "Embryology",
+          "sourcePptx": "SMART-Embryology.pptx",
+          "imageFolder": "images/physiology/smart-embryology",
+          "imageCount": 9,
+          "coverImage": "images/physiology/smart-embryology/slide-001.png"
+        },
+        {
+          "id": "smart-endocrinology",
+          "title": "Endocrinology",
+          "sourcePptx": "SMART-Endocrinology.pptx",
+          "imageFolder": "images/physiology/smart-endocrinology",
+          "imageCount": 14,
+          "coverImage": "images/physiology/smart-endocrinology/slide-001.png"
+        },
+        {
+          "id": "smart-reproduction",
+          "title": "Reproduction",
+          "sourcePptx": "SMART-Reproduction.pptx",
+          "imageFolder": "images/physiology/smart-reproduction",
+          "imageCount": 11,
+          "coverImage": "images/physiology/smart-reproduction/slide-001.png"
+        }
+      ]
+    },
+    {
+      "id": "risk-factors",
+      "name": "Risk Factors",
+      "icon": "⚠️",
+      "totalKits": 3,
+      "totalImages": 70,
+      "kits": [
+        {
+          "id": "smart-dietetics",
+          "title": "Dietetics",
+          "sourcePptx": "SMART-Dietetics.pptx",
+          "imageFolder": "images/risk-factors/smart-dietetics",
+          "imageCount": 35,
+          "coverImage": "images/risk-factors/smart-dietetics/slide-001.png"
+        },
+        {
+          "id": "smart-lipids",
+          "title": "Lipids",
+          "sourcePptx": "SMART-Lipids.pptx",
+          "imageFolder": "images/risk-factors/smart-lipids",
+          "imageCount": 10,
+          "coverImage": "images/risk-factors/smart-lipids/slide-001.png"
+        },
+        {
+          "id": "smart-risk-factors",
+          "title": "Risk Factors",
+          "sourcePptx": "SMART-Risk-Factors.pptx",
+          "imageFolder": "images/risk-factors/smart-risk-factors",
+          "imageCount": 25,
+          "coverImage": "images/risk-factors/smart-risk-factors/slide-001.png"
+        }
+      ]
+    }
+  ]
+}
